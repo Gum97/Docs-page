@@ -2,46 +2,46 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Giới thiệu Hướng dẫn
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Hãy khám phá **Docusaurus trong ít hơn 5 phút**.
 
-## Getting Started
+## Bắt đầu
 
-Get started by **creating a new site**.
+Bắt đầu bằng cách **tạo một trang web mới**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Hoặc **thử Docusaurus ngay lập tức** với **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
+### Những gì bạn sẽ cần
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- [Node.js](https://nodejs.org/en/download/) phiên bản 18.0 trở lên:
+  - Khi cài đặt Node.js, bạn được khuyến khích kiểm tra tất cả các ô liên quan đến phụ thuộc.
 
-## Generate a new site
+## Tạo một trang web mới
 
-Generate a new Docusaurus site using the **classic template**.
+Tạo một trang web Docusaurus mới sử dụng **mẫu cổ điển**.
 
-The classic template will automatically be added to your project after you run the command:
+Mẫu cổ điển sẽ tự động được thêm vào dự án của bạn sau khi bạn chạy lệnh:
 
 ```bash
 npm init docusaurus@latest my-website classic
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Bạn có thể nhập lệnh này vào Command Prompt, Powershell, Terminal, hoặc bất kỳ terminal tích hợp nào của trình soạn thảo mã của bạn.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Lệnh này cũng cài đặt tất cả các phụ thuộc cần thiết bạn cần để chạy Docusaurus.
 
-## Start your site
+## Khởi động trang web của bạn
 
-Run the development server:
+Chạy máy chủ phát triển:
 
 ```bash
 cd my-website
 npm run start
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+Lệnh `cd` thay đổi thư mục bạn đang làm việc. Để làm việc với trang web Docusaurus mới tạo của bạn, bạn sẽ cần điều hướng terminal đến đó.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+Lệnh `npm run start` xây dựng trang web của bạn nội bộ và phục vụ nó thông qua một máy chủ phát triển, sẵn sàng cho bạn để xem tại
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Mở `docs/intro.md` (trang này) và chỉnh sửa một số dòng: trang web sẽ **tự động tải lại** và hiển thị các thay đổi của bạn.
