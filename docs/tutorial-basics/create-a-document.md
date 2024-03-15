@@ -2,44 +2,44 @@
 sidebar_position: 2
 ---
 
-# Create a Document
+# Tạo một Tài liệu
 
-Documents are **groups of pages** connected through:
+Tài liệu là **nhóm các trang** được kết nối thông qua:
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
+- một **thanh bên**
+- **điều hướng trước/sau**
+- **phiên bản**
 
-## Create your first Doc
+## Tạo Tài liệu Đầu tiên của Bạn
 
-Create a Markdown file at `docs/hello.md`:
+Tạo một tệp Markdown tại `docs/hello.md`:
 
 ```md title="docs/hello.md"
-# Hello
+# Xin chào
 
-This is my **first Docusaurus document**!
+Đây là **tài liệu Docusaurus đầu tiên** của tôi!
 ```
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
+Một tài liệu mới giờ đây có sẵn tại [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
 
-## Configure the Sidebar
+## Cấu hình Thanh bên
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
+Docusaurus tự động **tạo một thanh bên** từ thư mục `docs`.
 
-Add metadata to customize the sidebar label and position:
+Thêm metadata để tùy chỉnh nhãn và vị trí của thanh bên:
 
 ```md title="docs/hello.md" {1-4}
 ---
-sidebar_label: 'Hi!'
+sidebar_label: 'Xin chào!'
 sidebar_position: 3
 ---
 
-# Hello
+# Xin chào
 
-This is my **first Docusaurus document**!
+Đây là **tài liệu Docusaurus đầu tiên** của tôi!
 ```
 
-It is also possible to create your sidebar explicitly in `sidebars.js`:
+Cũng có thể tạo thanh bên của bạn một cách rõ ràng trong `sidebars.js`:
 
 ```js title="sidebars.js"
 export default {
@@ -49,9 +49,8 @@ export default {
     'hello',
     {
       type: 'category',
-      label: 'Tutorial',
+      label: 'Hướng dẫn',
       items: ['tutorial-basics/create-a-document'],
     },
   ],
 };
-```
