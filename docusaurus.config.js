@@ -95,7 +95,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/Docusaurus/intro',
+                to: '/docs/intro',
               },
             ],
           },
