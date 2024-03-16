@@ -68,11 +68,12 @@ const config = {
         id: 'review-phim',
         path: 'review-phim',
         routeBasePath: 'review-phim',
-        sidebarPath: './sidebars.js',
-        // ... other options
+        sidebarPath: require.resolve('./sidebars.js'),
+        // Các tùy chọn khác
       },
     ],
   ],
+
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -94,10 +95,10 @@ const config = {
             label: 'Docusaurus',
           },
           {
-            type: 'reviewPhimSidebar',
-            sidebarId: 'reviewPhimSidebar', // This should match the id of your new sidebar
-            position: 'left',
+            type: 'review-phim',
+            sidebarId: 'reviewPhimSidebar',
             label: 'Review Phim',
+            position: 'left', // or 'right', depending on where you want the menu item to appear
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
