@@ -1,6 +1,6 @@
 ---
 title: Giới Thiệu
-slug: /intro
+slug: /gioi-thieu
 sidebar_position: 1
 ---
 # 🎬 Review Phim 🎥
