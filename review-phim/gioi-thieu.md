@@ -1,5 +1,6 @@
 ---
-id: reviewPhimSidebar
+title: Giới Thiệu
+slug: /intro
 sidebar_position: 1
 ---
 # 🎬 Phim Review - Tài liệu Đánh giá Phim 🎥
