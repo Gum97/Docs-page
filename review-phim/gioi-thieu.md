@@ -1,4 +1,5 @@
 ---
+id: reviewPhimSidebar
 sidebar_position: 1
 ---
 # 🎬 Phim Review - Tài liệu Đánh giá Phim 🎥
