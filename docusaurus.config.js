@@ -76,7 +76,7 @@ const config = {
           position: 'left',
         },
         {
-          to: 'phim/intro', // Giả sử bạn có một tài liệu giới thiệu cho phần review phim
+          to: 'phim/gioi-thieu', // Giả sử bạn có một tài liệu giới thiệu cho phần review phim
           activeBasePath: 'phim',
           label: 'Nghiện Phim',
           position: 'left',
