@@ -38,7 +38,7 @@ const config = {
   ],
 
   plugins: [
-    ['plugin-image-zoom'],
+
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -59,6 +59,7 @@ const config = {
         // Bạn có thể thêm editUrl cho phần review phim nếu muốn
       },
     ],
+    ['plugin-image-zoom'],
   ],
 
   themeConfig: {
