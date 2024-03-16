@@ -3,9 +3,9 @@ title: Giới Thiệu
 slug: /intro
 sidebar_position: 1
 ---
-# 🎬 Phim Review - Tài liệu Đánh giá Phim 🎥
+# 🎬 Review Phim 🎥
 
-Chào mừng bạn đến với **Phim Review**, nơi chúng tôi chia sẻ những đánh giá sâu sắc và chân thực nhất về các bộ phim từ khắp nơi trên thế giới. Dưới đây là những gì bạn có thể mong đợi từ tài liệu của chúng tôi:
+Chào mừng bạn đến với **Review Phim**, nơi chúng tôi chia sẻ những đánh giá cá nhân, cảm nhận về các bộ phim từ khắp nơi trên thế giới. Đồng thời cũng giới thiệu các web xem phim đang mong đợi. Dưới đây là những gì bạn có thể mong đợi từ chúng tôi:
 
 ## 🌟 Tính năng Nổi bật:
 
