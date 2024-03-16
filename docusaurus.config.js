@@ -94,8 +94,8 @@ const config = {
             label: 'Docusaurus',
           },
           {
-            type: 'review-phim',
-            sidebarId: 'review-phimSidebar',
+            type: 'docSidebar',
+            sidebarId: 'reviewPhimSidebar', // This should match the id of your new sidebar
             position: 'left',
             label: 'Review Phim',
           },
