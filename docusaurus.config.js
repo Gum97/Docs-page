@@ -37,7 +37,7 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
       ({
         docs: {
           sidebarPath: './sidebars.js',
@@ -46,6 +46,7 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -57,6 +58,19 @@ const config = {
           customCss: './src/css/custom.css',
         },
       }),
+    ],
+
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'Review Phim',
+        path: 'review-phim',
+        routeBasePath: 'review-phim',
+        sidebarPath: './sidebars.js',
+        // ... other options
+      },
     ],
   ],
 
