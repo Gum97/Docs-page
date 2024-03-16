@@ -3,11 +3,11 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 
 const config = {
-  title: 'Nghiện Docs',
-  tagline: 'Dinosaurs are cool',
+  title: 'Nghiện Plus',
+  tagline: 'Web được xây dựng bằng Dinosaurs',
   favicon: 'img/favicon.ico',
 
-  url: 'https://nghiendocs.pages.dev',
+  url: 'https://nghienplus.pages.dev',
   baseUrl: '/',
 
   organizationName: 'facebook', // Hoặc tên tổ chức/github user của bạn
@@ -132,7 +132,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Nghiện Plus, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
