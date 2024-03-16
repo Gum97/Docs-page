@@ -65,7 +65,7 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'Review Phim',
+        id: 'review-phim',
         path: 'review-phim',
         routeBasePath: 'review-phim',
         sidebarPath: './sidebars.js',
