@@ -2,22 +2,22 @@
 sidebar_position: 6
 ---
 
-# Congratulations!
+# Chúc mừng!
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+Bạn vừa học được **cơ bản về Docusaurus** và đã thực hiện một số thay đổi trong **mẫu ban đầu**.
 
-Docusaurus has **much more to offer**!
+Docusaurus còn **nhiều điều thú vị hơn**!
 
-Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
+Có **5 phút nữa** không? Hãy xem qua phần **[quản lý phiên bản](../tutorial-extras/manage-docs-versions.md)** và **[i18n](../tutorial-extras/translate-your-site.md)**.
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+Có điều gì **không rõ** hoặc **có lỗi** trong hướng dẫn này không? [Xin báo cáo nó!](https://github.com/facebook/docusaurus/discussions/4610)
 
-## What's next?
+## Tiếp theo là gì?
 
-- Read the [official documentation](https://docusaurus.io/)
-- Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
-- Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+- Đọc [tài liệu chính thức](https://docusaurus.io/)
+- Sửa đổi cấu hình trang web của bạn với [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
+- Thêm mục navbar và footer với [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
+- Thêm một [Thiết kế và Bố cục](https://docusaurus.io/docs/styling-layout) tùy chỉnh
+- Thêm một [thanh tìm kiếm](https://docusaurus.io/docs/search)
+- Tìm cảm hứng trong [Bảng giới thiệu Docusaurus](https://docusaurus.io/showcase)
+- Tham gia vào [Cộng đồng Docusaurus](https://docusaurus.io/community/support)

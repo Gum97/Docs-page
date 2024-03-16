@@ -51,9 +51,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'review-phim',
-        path: 'review-phim',
-        routeBasePath: 'review-phim',
+        id: 'phim',
+        path: 'phim',
+        routeBasePath: 'phim',
         sidebarPath: require.resolve('./sidebars.js'), // Chỉ định file sidebar riêng cho review phim
         // Bạn có thể thêm editUrl cho phần review phim nếu muốn
       },
@@ -76,9 +76,9 @@ const config = {
           position: 'left',
         },
         {
-          to: 'review-phim/intro', // Giả sử bạn có một tài liệu giới thiệu cho phần review phim
-          activeBasePath: 'review-phim',
-          label: 'Review Phim',
+          to: 'phim/intro', // Giả sử bạn có một tài liệu giới thiệu cho phần review phim
+          activeBasePath: 'phim',
+          label: 'Nghiện Phim',
           position: 'left',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
