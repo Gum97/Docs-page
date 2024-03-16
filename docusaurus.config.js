@@ -59,7 +59,7 @@ const config = {
         // Bạn có thể thêm editUrl cho phần review phim nếu muốn
       },
     ],
-    ['plugin-image-zoom'],
+    'plugin-image-zoom',
   ],
 
   themeConfig: {
