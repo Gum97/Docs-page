@@ -17,8 +17,8 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'vi',
+    locales: ['vi'],
   },
 
   presets: [
@@ -57,6 +57,16 @@ const config = {
         routeBasePath: 'phim',
         sidebarPath: require.resolve('./sidebars.js'), // Chỉ định file sidebar riêng cho review phim
         // Bạn có thể thêm editUrl cho phần review phim nếu muốn
+      },
+    ],
+    [
+      '@docusaurus/plugin-ideal-image',
+      {
+        quality: 70,
+        max: 1030, // max resized image's size. (test)
+        min: 640, // min resized image's size. if original is lower, use that size.
+        steps: 2, // the max number of images generated between min and max (inclusive)
+        disableInDev: false,
       },
     ],
   ],
