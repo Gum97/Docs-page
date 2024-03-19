@@ -1,9 +1,0 @@
-{
-    "label": "Phim lẻ",
-    "position": 3,
-    "slug": "phim-le",
-    "link": {
-        "type": "generated-index",
-        "description": "--> Xem thêm phim lẻ <--"
-    }
-}
