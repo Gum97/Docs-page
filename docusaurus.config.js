@@ -74,7 +74,7 @@ const config = {
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Nghiện Docs',
+      title: 'Nghiện Plus',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
