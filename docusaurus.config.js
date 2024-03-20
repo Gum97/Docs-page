@@ -4,14 +4,14 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 const config = {
   title: 'Nghiện Plus',
-  tagline: 'Web được xây dựng bằng Dinosaurs',
+  tagline: 'Web được xây dựng bằng Docusaurus',
   favicon: 'img/favicon.ico',
 
   url: 'https://nghienplus.pages.dev',
   baseUrl: '/',
 
-  organizationName: 'facebook', // Hoặc tên tổ chức/github user của bạn
-  projectName: 'docusaurus', // Tên repo của bạn
+  organizationName: 'Gum97', // Hoặc tên tổ chức/github user của bạn
+  projectName: 'Docs-page', // Tên repo của bạn
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
