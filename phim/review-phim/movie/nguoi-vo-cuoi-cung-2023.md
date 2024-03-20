@@ -13,7 +13,7 @@ keywords:
 image: https://i.imgur.com/lw6vvjw.jpg
 slug: /nguoi-vo-cuoi-cung-2023
 last_update:
-  date: 20/03/2023
+  date: 20/3/2024
   author: Gum97
 ---
 # Người Vợ Cuối Cùng
