@@ -160,7 +160,7 @@ const config = {
       appId: 'KRKQV9T0NF',
 
       // Public API key: it is safe to commit it
-      apiKey: '2e2553d534fbb7d476a13f5f1673906f',
+      apiKey: 'ffe520bd869105572a478d8cc1d9dd7e',
 
       indexName: 'nghienplus',
 
