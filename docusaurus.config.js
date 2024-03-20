@@ -76,7 +76,6 @@ const config = {
       },
     ],
   ],
-  themes: ['@docusaurus/theme-search-algolia'],
 
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
