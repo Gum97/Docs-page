@@ -37,7 +37,7 @@ description: Bài đánh giá về bộ phim Người Vợ Cuối Cùng của đ
 ### Hình ảnh
 
 - "Người Vợ Cuối Cùng" sở hữu phần hình ảnh đẹp mắt với bối cảnh được dàn dựng kỹ lưỡng. Phim sử dụng nhiều góc máy flycam, phác họa vẻ đẹp sơn thủy hữu tình của làng quê Bắc bộ thế kỷ 19. Trang phục được thiết kế tỉ mỉ, góp phần thể hiện rõ thân phận và tính cách nhân vật.
-![Người vợ cuối cùng](./img/nguoivocuoicung_02/jpg)
+![Người vợ cuối cùng](./img/nguoivocuoicung_02.jpg)
 
 ### Âm nhạc
 
