@@ -82,7 +82,7 @@ const config = {
       // The application ID provided by Algolia
       appId: 'KRKQV9T0NF',
       // Public API key: it is safe to commit it
-      apiKey: '3f64ae9bc29c869918b6484cfce34f42',
+      apiKey: 'ffe520bd869105572a478d8cc1d9dd7e',
       indexName: 'nghienplus',
       insights: true,
 
