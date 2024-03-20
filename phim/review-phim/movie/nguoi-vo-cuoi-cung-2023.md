@@ -11,7 +11,6 @@ keywords:
   - người vợ cuối cùng
   - Victor Vũ
 image: https://i.imgur.com/lw6vvjw.jpg
-slug: /nguoi-vo-cuoi-cung-2023
 ---
 # Người Vợ Cuối Cùng
 

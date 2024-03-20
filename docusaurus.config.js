@@ -62,6 +62,9 @@ const config = {
         path: 'phim',
         routeBasePath: 'phim',
         sidebarPath: require.resolve('./sidebars.js'), // Chỉ định file sidebar riêng cho review phim
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+        showReadingTime: true,
         // Bạn có thể thêm editUrl cho phần review phim nếu muốn
       },
     ],
