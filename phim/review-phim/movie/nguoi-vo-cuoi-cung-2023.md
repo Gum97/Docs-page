@@ -6,10 +6,10 @@ hide_table_of_contents: false
 sidebar_label: Người Vợ Cuối Cùng - 2023
 sidebar_position: 1
 custom_edit_url: https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md
-description: How do I find you when I cannot solve this problem
+description: Bài đánh giá về bộ phim Người Vợ Cuối Cùng của đạo diễn Victor Vũ.
 keywords:
-  - docs
-  - docusaurus
+  - người vợ cuối cùng
+  - Victor Vũ
 image: https://i.imgur.com/lw6vvjw.jpg
 slug: /nguoi-vo-cuoi-cung-2023
 last_update:
