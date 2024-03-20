@@ -155,7 +155,7 @@ const config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-    docsearch: {
+    algolia: {
       // The application ID provided by Algolia
       appId: 'KRKQV9T0NF',
       // Public API key: it is safe to commit it
