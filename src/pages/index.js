@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Nghiện Plus là trang web chia sẻ về công nghệ, phim ảnh, và cuộc sống. <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
