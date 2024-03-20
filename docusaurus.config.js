@@ -78,6 +78,15 @@ const config = {
   ],
 
   themeConfig: {
+    algolia: {
+      // The application ID provided by Algolia
+      appId: 'KRKQV9T0NF',
+      // Public API key: it is safe to commit it
+      apiKey: '3f64ae9bc29c869918b6484cfce34f42',
+      indexName: 'nghienplus',
+      insights: true,
+
+    },
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Nghiện Plus',
@@ -154,13 +163,6 @@ const config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-    },
-    algolia: {
-      // The application ID provided by Algolia
-      appId: 'KRKQV9T0NF',
-      // Public API key: it is safe to commit it
-      apiKey: '3f64ae9bc29c869918b6484cfce34f42',
-      indexName: 'nghienplus',
     },
   },
 };
