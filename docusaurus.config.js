@@ -78,6 +78,10 @@ const config = {
   ],
 
   themeConfig: {
+    metadata: [
+      {name: 'description', content: 'Nghiện Plus là trang web chia sẻ về công nghệ, phim ảnh, và cuộc sống.'},
+      {name: 'keywords', content: 'nghienplus, công nghệ, phim ảnh, cuộc sống'},
+    ],
     algolia: {
       // The application ID provided by Algolia
       appId: 'KRKQV9T0NF',
