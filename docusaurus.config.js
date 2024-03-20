@@ -3,11 +3,11 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 
 const config = {
-  title: 'Nghiện Plus',
+  title: 'Sảnh Plus',
   tagline: 'Web được xây dựng bằng Docusaurus',
   favicon: 'img/favicon.ico',
 
-  url: 'https://nghienplus.pages.dev',
+  url: 'https://sanhplus.pages.dev',
   baseUrl: '/',
 
   organizationName: 'Gum97', // Hoặc tên tổ chức/github user của bạn
@@ -95,7 +95,7 @@ const config = {
     },
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Nghiện Plus',
+      title: 'Sảnh Plus',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -110,7 +110,7 @@ const config = {
         {
           to: 'phim/gioi-thieu', // Giả sử bạn có một tài liệu giới thiệu cho phần review phim
           activeBasePath: 'phim',
-          label: 'Nghiện Phim',
+          label: 'Sảnh Phim',
           position: 'left',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
@@ -164,7 +164,7 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Nghiện Plus, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Sảnh Plus, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
