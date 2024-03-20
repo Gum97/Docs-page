@@ -68,6 +68,18 @@ const config = {
       },
     ],
     [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'my-task',
+        path: 'my-task',
+        routeBasePath: 'my-task',
+        sidebarPath: require.resolve('./sidebars.js'), // Chỉ định file sidebar riêng cho review phim
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+        // Bạn có thể thêm editUrl cho phần review phim nếu muốn
+      },
+    ],
+    [
       '@docusaurus/plugin-ideal-image',
       {
         quality: 70,
@@ -81,8 +93,8 @@ const config = {
 
   themeConfig: {
     metadata: [
-      {name: 'description', content: 'Nghiện Plus là trang web chia sẻ về công nghệ, phim ảnh, và cuộc sống.'},
-      {name: 'keywords', content: 'nghienplus, công nghệ, phim ảnh, cuộc sống'},
+      { name: 'description', content: 'Nghiện Plus là trang web chia sẻ về công nghệ, phim ảnh, và cuộc sống.' },
+      { name: 'keywords', content: 'nghienplus, công nghệ, phim ảnh, cuộc sống' },
     ],
     algolia: {
       // The application ID provided by Algolia
@@ -111,6 +123,12 @@ const config = {
           to: 'phim/gioi-thieu', // Giả sử bạn có một tài liệu giới thiệu cho phần review phim
           activeBasePath: 'phim',
           label: 'Sảnh Phim',
+          position: 'left',
+        },
+        {
+          to: 'my-task/gioi-thieu', // Giả sử bạn có một tài liệu giới thiệu cho phần review phim
+          activeBasePath: 'my-task',
+          label: 'Sảnh Task',
           position: 'left',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
