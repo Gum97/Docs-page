@@ -25,7 +25,7 @@ const config = {
     [
       'classic',
       {
-        //docs: false, // Tắt docs mặc định nếu bạn muốn sử dụng multi-instance
+        docs: false, // Tắt docs mặc định nếu bạn muốn sử dụng multi-instance
         blog: {
           showReadingTime: true,
           editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
@@ -48,7 +48,7 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'linux', // ID này giúp phân biệt các thể hiện plugin khác nhau
+        id: 'docs', // ID này giúp phân biệt các thể hiện plugin khác nhau
         path: 'linux',
         routeBasePath: 'linux',
         sidebarPath: require.resolve('./sidebars.js'),
@@ -114,7 +114,7 @@ const config = {
       },
       items: [
         {
-          to: 'linux/intro',
+          to: 'docs/intro',
           activeBasePath: 'linux',
           label: 'Sảnh Linux',
           position: 'left',
