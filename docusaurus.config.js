@@ -126,7 +126,7 @@ const config = {
           position: 'left',
         },
         {
-          to: 'my-task/gioi-thieu', // Giả sử bạn có một tài liệu giới thiệu cho phần review phim
+          to: 'my-task/daily-task', // Giả sử bạn có một tài liệu giới thiệu cho phần review phim
           activeBasePath: 'my-task',
           label: 'Sảnh Task',
           position: 'left',
