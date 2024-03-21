@@ -20,7 +20,7 @@ import TaskItem from '@site/src/components/TaskItem'; // Đảm bảo đường 
 Chào mừng bạn đến với task list của tôi. Tôi sẽ cố gắng thử thách bản thân với mỗi ngày một bài viết được post lên.
 Ngoài ra tôi sẽ cập nhật tiến trình các task tôi tự đặt ra cho bản thân ngày hôm nay.
 
-<TaskItem name="21/03/2024 - Tạo Docs về linux - Lên bài viết về LVM disk " isCompleted={true} />
+<TaskItem name="21/03/2024 - Tạo Docs về linux - Lên bài viết về LVM disk " isInProgress={true} />
 <TaskItem name="22/03/2024 - " isCompleted={false} />
-<TaskItem name="Hoàn thành thiết lập Docusaurus:" isInProgress={true} />
+<TaskItem name="Hoàn thành thiết lập Docusaurus - Đang tiến hành" isInProgress={true} />
 
