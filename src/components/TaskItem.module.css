@@ -3,7 +3,6 @@
         opacity: 0;
         transform: translateX(-20px);
     }
-
     100% {
         opacity: 1;
         transform: translateX(0);
@@ -16,8 +15,8 @@
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 8px;
-    background-color: #f0f0f0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--background-color, #f0f0f0); /* Mặc định là #f0f0f0 nếu biến không tồn tại */
+    box-shadow: 0 2px 4px var(--shadow-color, rgba(0, 0, 0, 0.1));
     animation: slideInFromLeft 0.5s ease-out;
 }
 
@@ -27,22 +26,23 @@
 }
 
 .completed {
-    color: green;
-}
-
-.completed:hover .taskIcon {
-    transform: scale(1.1);
+    color: var(--success-color, green);
 }
 
 .pending {
-    color: red;
+    color: var(--error-color, red);
 }
 
-.pending:hover .taskIcon {
+.inProgress {
+    color: var(--warning-color, orange);
+}
+
+.taskIcon:hover {
     transform: scale(1.1);
 }
 
 .taskName {
     font-size: 16px;
     font-weight: 500;
+    color: var(--text-color, #000); /* Mặc định là màu đen nếu biến không tồn tại */
 }
