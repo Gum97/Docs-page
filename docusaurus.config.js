@@ -114,7 +114,7 @@ const config = {
       },
       items: [
         {
-          to: 'docs/intro',
+          to: 'docs/linux-tip-tricks',
           activeBasePath: 'docs',
           label: 'Sảnh Linux',
           position: 'left',
@@ -146,8 +146,8 @@ const config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Linux Tips & Tricks',
+              to: '/docs/linux-tip-tricks',
             },
           ],
         },
