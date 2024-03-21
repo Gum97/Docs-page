@@ -49,8 +49,8 @@ const config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'docs', // ID này giúp phân biệt các thể hiện plugin khác nhau
-        path: 'linux',
-        routeBasePath: 'linux',
+        path: 'docs',
+        routeBasePath: 'docs',
         sidebarPath: require.resolve('./sidebars.js'),
         editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
       },
@@ -115,7 +115,7 @@ const config = {
       items: [
         {
           to: 'docs/intro',
-          activeBasePath: 'linux',
+          activeBasePath: 'docs',
           label: 'Sảnh Linux',
           position: 'left',
         },
