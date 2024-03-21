@@ -1,5 +1,8 @@
 ---
+id: linux-tip-tricks
 title: Linux Tips & Tricks
+hide_title: false
+hide_table_of_contents: false
 sidebar_label: Linux Tips & Tricks
 sidebar_position: 1
 description: Bài đánh tổng quan về sảnh linux.
