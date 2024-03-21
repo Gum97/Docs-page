@@ -1,47 +1,51 @@
 ---
+id: linux-tip-tricks
+title: Linux Tips & Tricks
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: Linux Tips & Tricks
 sidebar_position: 1
+description: Bài đánh tổng quan về sảnh linux.
+keywords:
+  - linux
+  - linux tips
+  - linux tips tricks
+  - opensource
+  - quản trị linux
 ---
 
-# Giới thiệu Hướng dẫn
+# Linux Tips & Tricks :penguin:
+![Linux tips & tricks](https://i.imgur.com/Kmtb01n.jpg)
 
-Hãy khám phá **Docusaurus trong ít hơn 5 phút**.
+Chào mừng bạn đến với trang document **Linux Tips & Tricks**! Trang này được tạo ra với mục đích chia sẻ các thủ thuật, tip và trick liên quan đến việc cài đặt và sử dụng liên quan đến Linux, giúp bạn tận dụng tối đa hệ điều hành mạnh mẽ và linh hoạt này.
 
-## Bắt đầu
+## Tại sao chọn Linux? :thinking:
 
-Bắt đầu bằng cách **tạo một trang web mới**.
+Linux, với khả năng tùy chỉnh cao và cộng đồng hỗ trợ tích cức, là lựa chọn lý tưởng cho cả những người mới bắt đầu lẫn các chuyên gia công nghệ thông tin. Dưới đây là một số lý do tại sao bạn nên sử dụng Linux:
 
-Hoặc **thử Docusaurus ngay lập tức** với **[docusaurus.new](https://docusaurus.new)**.
+- **Mã nguồn mở:** Cho phép bạn tùy chỉnh hệ điều hành theo ý muốn.
+- **Bảo mật:** Linux được biết đến với khả năng bảo mật cao.
+- **Tài nguyên hệ thống:** Sử dụng tài nguyên hệ thống hiệu quả, tốt cho cả máy tính cũ và mới.
+- **Cộng đồng:** Một cộng đồng lớn và hỗ trợ tích cực.
 
-### Những gì bạn sẽ cần
+## Các chủ đề chính :bookmark_tabs:
 
-- [Node.js](https://nodejs.org/en/download/) phiên bản 18.0 trở lên:
-  - Khi cài đặt Node.js, bạn được khuyến khích kiểm tra tất cả các ô liên quan đến phụ thuộc.
+- **Cài đặt & Cấu hình:** Hướng dẫn từ cơ bản đến nâng cao về cách cài đặt và cấu hình Linux.
+- **Quản lý Gói & Phần mềm:** Tips về việc quản lý gói và cài đặt phần mềm.
+- **Tối ưu hóa & Bảo mật:** Thủ thuật tăng cường hiệu suất và bảo mật cho hệ thống của bạn.
+- **Tùy chỉnh & Automation:** Học cách tùy chỉnh giao diện và tự động hóa các nhiệm vụ.
+- **Cài đặt các opensource:** Cài các app hoặc các ứng dụng opensource
 
-## Tạo một trang web mới
+## Cộng đồng & Hỗ trợ :people_holding_hands:
 
-Tạo một trang web Docusaurus mới sử dụng **mẫu cổ điển**.
+Bạn có câu hỏi hoặc cần giúp đỡ? Tham gia các group hỗ trợ trên [Telegram Quản Trị Linux](https://t.me/quantrilinux) hoặc [Telegram ITFORVN](https://t.me/itforvn) để được hỗ trợ và chia sẻ kinh nghiệm.
 
-Mẫu cổ điển sẽ tự động được thêm vào dự án của bạn sau khi bạn chạy lệnh:
+## Theo dõi chúng tôi :satellite:
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Đừng quên theo dõi chúng tôi trên các phương tiện truyền thông xã hội để cập nhật thông tin mới nhất!
 
-Bạn có thể nhập lệnh này vào Command Prompt, Powershell, Terminal, hoặc bất kỳ terminal tích hợp nào của trình soạn thảo mã của bạn.
+- [Twitter](#)
+- [Facebook](#)
+- [Instagram](#)
 
-Lệnh này cũng cài đặt tất cả các phụ thuộc cần thiết bạn cần để chạy Docusaurus.
-
-## Khởi động trang web của bạn
-
-Chạy máy chủ phát triển:
-
-```bash
-cd my-website
-npm run start
-```
-
-Lệnh `cd` thay đổi thư mục bạn đang làm việc. Để làm việc với trang web Docusaurus mới tạo của bạn, bạn sẽ cần điều hướng terminal đến đó.
-
-Lệnh `npm run start` xây dựng trang web của bạn nội bộ và phục vụ nó thông qua một máy chủ phát triển, sẵn sàng cho bạn để xem tại
-
-Mở `docs/intro.md` (trang này) và chỉnh sửa một số dòng: trang web sẽ **tự động tải lại** và hiển thị các thay đổi của bạn.
+Cảm ơn bạn đã ghé thăm **Linux Tips & Tricks**. Hãy bắt đầu khám phá và tối đa hóa sức mạnh của Linux ngay hôm nay!
